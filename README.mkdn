@@ -2,7 +2,7 @@ CyanogenMod
 ===========
 
 **WARNING**
-Currently, this source tree is intended **only** for internal usage of developers working on CyanogenMod for Spica. No bug reports are being accepted and no technical support is being given.
+Currently, this source tree is intended **only** for internal usage of developers working on CyanogenMod for Jet. No bug reports are being accepted and no technical support is being given.
 
 Getting Started
 ---------------
@@ -10,13 +10,17 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod for Spica trees, use a command like this:
+To initialize your local repository using the CyanogenMod for Jet trees, use a command like this:
 
-    repo init -u git://github.com/tom3q/android.git -b gingerbread
+    repo init -u git://github.com/KB-JetDroid/android.git -b gingerbread
 
 Then to sync up:
 
     repo sync
+
+Start building by:
+
+    . build/envsetup.sh && brunch jet
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 

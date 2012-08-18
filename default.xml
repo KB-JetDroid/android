@@ -105,6 +105,7 @@
   <project path="device/samsung/tass" name="CyanogenMod/android_device_samsung_tass" />
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
   <project path="device/samsung/spica" name="tom3q/android_device_samsung_spica" remote="github" />
+  <project path="device/samsung/jet" name="KB-JetDroid/android_device_samsung_jet" remote="github" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
   <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" />
@@ -238,6 +239,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
+  <project path="hardware/ril/bada_modemril" name="KB-JetDroid/bada-modemril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" />
@@ -320,7 +322,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="tom3q/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="KB-JetDroid/android_vendor_cyanogen" remote="github" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -330,6 +332,6 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="vendor/openfimg" name="tom3q/openfimg" remote="github" revision="master" />
 
-  <project path="android" name="tom3q/android" remote="github" />
+  <project path="android" name="KB-JetDroid/android" remote="github" />
 
 </manifest>
